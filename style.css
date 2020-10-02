@@ -205,7 +205,6 @@ section{
     padding-bottom:2rem;
     display: flex;
     flex-wrap: wrap;
-
     margin:auto;
     justify-content: center;
 }
@@ -262,6 +261,60 @@ section{
 .services-box:hover p{
   color: #fff;
 }
+/* ------------------Acheivements-------------------------- */
+.achievement-box{
+  height: 400px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.achievement{
+  background-color: lightgrey;
+}
+.codejam img{
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 140px;
+  width: 260px;
+}
+.bhu img{
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  height: 140px;
+  width: 266px;
+}
+.achievement h1{
+  padding-bottom: 20px;
+}
+.achievement-box .fa{
+  margin: 0 10px;
+  font-size: 20px;
+}
+.achievement-box span{
+  margin: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.achievement-box p{
+  font-size: 15px;
+  margin-top: 20px;
+  color: black;
+}
+.achievement-box:hover{
+
+  color: black;
+  box-shadow: 0px 0px 6px 8px black;
+  transition: 0.5s;
+}
+
+
+
 /* ------------------contact-------------------------- */
 .contact{
   padding-top: : 50px;
